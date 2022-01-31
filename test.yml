@@ -1,0 +1,42 @@
+name: Ali
+age: 28
+address: "something: value"
+active: true
+key:
+  key: value
+  key2: 33
+  key3:
+      key: value
+      key2: value2
+
+jsonObject: { key: value, key2: value2, key3: value3 }
+array:
+  - item1
+  - item2
+  - item3
+  - { key: value }
+
+jsonArray: [item1, item2, item3]
+objectsArray: [
+  {
+    key: value,
+    key2: value2
+  },
+  {
+    object: value1,
+    object2: value2
+  }
+]
+objectsArray2:
+  - key: value2
+    key2: value2
+  - anotherKey: value2
+    key2: value2
+
+longText: |
+  a;dkfj;alk ;akjsdf;lkajsd; ;laksjd;flkajsdf ;aklsdjf;laksd
+  as;dfkja;sldkf
+  asd;klja;lsfdkas
+  ajd;fslkjw[oifk2pogrka
+  a;lsdfj;asldkfj;alsdk
+
